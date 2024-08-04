@@ -2,7 +2,7 @@
 
 # Define the proposal ID and target choices here
 PROPOSAL_ID = "0x78aaf514dd57a595fffea9c4b42b3db87b6dc112027bf4447c196d4bbe72a2d0"
-TARGET_CHOICES = ["z-Gyroe USDT/GYD", "Gyroe USDC/GYD", "Gyroe USDT/GYD", "Gyroe sDAI/USDC"]
+TARGET_CHOICES = ["z-Gyroe USDT/GYD", "Gyroe USDC/GYD", "Gyroe USDT/GYD", "Gyroe sDAI/GYD"]
 
 # Previous campaigns
 # Campaign 1: 8 SPIN per vote capped
