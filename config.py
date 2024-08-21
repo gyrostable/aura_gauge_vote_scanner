@@ -1,10 +1,14 @@
 # config.py
 
 # Define the proposal ID and target choices here
-PROPOSAL_ID = "0x78aaf514dd57a595fffea9c4b42b3db87b6dc112027bf4447c196d4bbe72a2d0"
-TARGET_CHOICES = ["z-Gyroe USDT/GYD", "Gyroe USDC/GYD", "Gyroe USDT/GYD", "Gyroe sDAI/GYD"]
+
+PROPOSAL_ID = "0xee768fb42cd5a0c47072adfc8b0245b3360578e2fce1b2b88d1e7c6765f8e869"
+TARGET_CHOICES = ["Gyroe sDAI/GYD"]
 
 # Previous campaigns
+# Campaign 4: 8 SPIN per vote capped
+# PROPOSAL_ID = "0x78aaf514dd57a595fffea9c4b42b3db87b6dc112027bf4447c196d4bbe72a2d0"
+# TARGET_CHOICES = ["z-Gyroe USDT/GYD", "Gyroe USDC/GYD", "Gyroe USDT/GYD", "Gyroe sDAI/GYD"]
 # Campaign 1: 8 SPIN per vote capped
 # PROPOSAL_ID = "0xf5f08d407b3643c6bdd0155d70729be7be8128153d74f3941872874564d3c056"
 # TARGET_CHOICES = ["z-Gyroe USDC.e/GYD", "z-Gyroe USDT/GYD"]
