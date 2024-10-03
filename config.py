@@ -2,10 +2,15 @@
 
 # Define the proposal ID and target choices here
 
-PROPOSAL_ID = "0xee768fb42cd5a0c47072adfc8b0245b3360578e2fce1b2b88d1e7c6765f8e869"
+# Campaign 6: 6 SPIN per vote capped
+PROPOSAL_ID = "0x4e5be40be9a9a66fd89751189183091299e55af7e849257cc59aca5d683c4dff"
 TARGET_CHOICES = ["Gyroe sDAI/GYD"]
 
+
 # Previous campaigns
+# Campaign 5: 8 SPIN per vote capped
+# PROPOSAL_ID = "0xee768fb42cd5a0c47072adfc8b0245b3360578e2fce1b2b88d1e7c6765f8e869"
+# TARGET_CHOICES = ["Gyroe sDAI/GYD"]
 # Campaign 4: 8 SPIN per vote capped
 # PROPOSAL_ID = "0x78aaf514dd57a595fffea9c4b42b3db87b6dc112027bf4447c196d4bbe72a2d0"
 # TARGET_CHOICES = ["z-Gyroe USDT/GYD", "Gyroe USDC/GYD", "Gyroe USDT/GYD", "Gyroe sDAI/GYD"]
