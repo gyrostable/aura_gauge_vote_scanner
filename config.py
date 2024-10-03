@@ -49,10 +49,10 @@ CAMPAIGNS = [
         "date_announced": "2024-07-19",
         "max_spin_per_vote": 8,
         "target_choices": {
-            "z-Gyroe USDC.e/GYD": {"max_spin": 400e3},
+            "z-Gyroe USDT/GYD": {"max_spin": 400e3},
             "Gyroe USDC/GYD": {"max_spin": 400e3},
             "Gyroe USDT/GYD": {"max_spin": 600e3},
-            "Gyroe sDAI/USDC": {"max_spin": 600e3},
+            "Gyroe sDAI/GYD": {"max_spin": 600e3},
         },
     },
     {
