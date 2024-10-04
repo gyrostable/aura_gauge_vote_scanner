@@ -38,7 +38,7 @@ CAMPAIGNS = [
     },
     {
         "proposal_id": "0xee768fb42cd5a0c47072adfc8b0245b3360578e2fce1b2b88d1e7c6765f8e869",
-        "date_announced": "2024-01-08",
+        "date_announced": "2024-08-01",
         "max_spin_per_vote": 8,
         "target_choices": {
             "Gyroe sDAI/GYD": {"max_spin": 800e3},
