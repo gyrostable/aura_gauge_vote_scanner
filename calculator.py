@@ -60,7 +60,7 @@ def main():
     missed_threshold_pools = per_pool[~per_pool["is_above_threshold_pool"]]
     if not missed_threshold_pools.empty:
         print("NB: The following pools did not reach the threshold:")
-        print(missed_threshold_pools[["total_votes"]])
+        print(missed_threshold_pools[["total_votes_pool"]])
 
     # print(per_pool)
 
@@ -79,6 +79,11 @@ def main():
     for addr, spin in per_voter.items():
         spin_str = f"{spin:,.2f}".replace(",", "_")
         print(f'("{addr}", {spin_str}),')
+
+    output_filename = f"results/emissions_{pid}.csv"
+    pd.DataFrame({"address": per_voter.index, "spin": per_voter.values}).to_csv(
+        output_filename, index=False
+    )
 
 
 if __name__ == "__main__":
