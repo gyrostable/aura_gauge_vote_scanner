@@ -72,7 +72,8 @@ def main():
     per_voter = df.groupby("address").spin.sum()
 
     print("SPIN per voter:")
-    print(per_voter)
+    per_voter_fmt = per_voter.apply(lambda x: f"{x:.2f}")
+    print(per_voter_fmt)
 
     print()
     print("Python format:")
