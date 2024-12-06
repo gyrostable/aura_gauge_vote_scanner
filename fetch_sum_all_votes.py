@@ -16,8 +16,8 @@ def main():
 
     # Copied & adjusted from processor.py
     for vote in votes:
-        choice_weights = vote["choice"]
-        total_votes = sum(choice_weights.values())
+        # choice_weights = vote["choice"]
+        # total_votes = sum(choice_weights.values())
         total_vp = float(vote["vp"])
         total_power += total_vp
 
