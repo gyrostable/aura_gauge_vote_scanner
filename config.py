@@ -5,6 +5,40 @@
 # Must be sorted descending (newest first)
 CAMPAIGNS = [
     {
+        "proposal_id": "0x2cc46de8f63d957646a1e3132a95056e9274f9277f016b02eb588888bc942a9a",
+        "date_announced": "2024-11-23",
+        "max_spin_per_vote": 6,
+        "target_choices": {
+            # For some reason the label for this option has changed to include the gauge address.
+            "Gyroe USDT/GYD (0xfc)": {"max_spin": 360e3},
+        },
+    },
+    {
+        "proposal_id": "0x9dcb635e6a6f9469ea739b9c10008cfcfc60b39c04c0640c4bba223c7000d3fc",
+        "date_announced": "2024-11-08",
+        "max_spin_per_vote": 6,
+        "target_choices": {
+            "Gyroe sDAI/GYD": {"max_spin": 360e3},
+        },
+    },
+    {
+        "proposal_id": "0x92210213b7685eca71b046724cfee9afd0375b938412ad30e479610caa0a2d4c",
+        "date_announced": "2024-10-25",
+        "max_spin_per_vote": 6,
+        "target_choices": {
+            "Gyroe sDAI/GYD": {"max_spin": 360e3},
+        },
+    },
+    {
+        "proposal_id": "0x3220c1c5c2a02676e9df058cdd576a474ace75f183616d53bd0f5106aeb20cd5",
+        "date_announced": "2024-10-11",
+        "max_spin_per_vote": 6,
+        "target_choices": {
+            "Gyroe USDT/GYD": {"max_spin": 360e3},
+        },
+        "threshold_power": 36493.12096334147,
+    },
+    {
         "proposal_id": "0x7f604b07b26848a99f07c9a4ddfd1c0599176cb31615542ce87800010195b7fc",
         "date_announced": "2024-09-27",
         "max_spin_per_vote": 6,
