@@ -5,6 +5,30 @@
 # Must be sorted descending (newest first)
 CAMPAIGNS = [
     {
+        "proposal_id": "0xd3eb06d107554f4feb7fb8f7730c3a50c49fbca160454b8964a98164edfda038",
+        "date_announced": "2025-01-17",
+        "max_spin_per_vote": 6,
+        "target_choices": {
+            "Gyroe USDT/GYD (0xfc)": {"max_spin": 360e3},
+        },
+    },
+    {
+        "proposal_id": "0xb71b94ed1a2482360378ebfa795d66c9a70a2e31498088551ce5710716e41f5f",
+        "date_announced": "2025-01-05",
+        "max_spin_per_vote": 6,
+        "target_choices": {
+            "Gyroe USDT/GYD (0xfc)": {"max_spin": 360e3},
+        },
+    },
+    {
+        "proposal_id": "0x2e7f83ca9125fbde09b4d9d3aee2309a6e1facaac65be224e3ff48dce01b5486",
+        "date_announced": "2024-12-20",
+        "max_spin_per_vote": 6,
+        "target_choices": {
+            "Gyroe USDT/GYD (0xfc)": {"max_spin": 360e3},
+        },
+    },
+    {
         "proposal_id": "0xca2db946abe18169bd4fd1d296721f16df66a4052e9ebee434d7085bc9968c4e",
         "date_announced": "2024-12-06",
         "max_spin_per_vote": 6,
