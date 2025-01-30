@@ -44,7 +44,10 @@ CAMPAIGNS = [
         "target_choices": {
             "Gyroe USDT/GYD": {"max_spin": 360e3},
         },
-        "threshold_power": 36493.12096334147,
+        # HACK: Intentionally ignoring the threshold here. The vote didn't make the threshold but we
+        # decided to emit 50% of the SPIN because it was very close. (ticket-0739 with farmerfroom)
+        # "threshold_power": 36493.12096334147,
+        "threshold_power": 0.0,
     },
     {
         "proposal_id": "0x7f604b07b26848a99f07c9a4ddfd1c0599176cb31615542ce87800010195b7fc",
