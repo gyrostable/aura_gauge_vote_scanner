@@ -5,6 +5,26 @@
 # Must be sorted descending (newest first)
 CAMPAIGNS = [
     {
+        "proposal_id": "0x967cf0759a25bd15f4033b2d9e35fc70412190d2f83f8b6f7e40ac08de76be19",
+        "date_announced": "2024-02-17",
+        "max_spin_per_vote": 6,
+        "target_choices": {
+            "Gyroe USDT/GYD (0xfc)": {"max_spin": 360e3},
+        },
+        # Disable threshold power b/c it was announced late.
+        "threshold_power": 0,
+    },
+    {
+        "proposal_id": "0xe70964d063328607938e80017578513b0d0b38b23c938a02f4e5c07d0f0edb1a",
+        "date_announced": "2025-02-02",
+        "max_spin_per_vote": 6,
+        "target_choices": {
+            "Gyroe USDT/GYD (0xfc)": {"max_spin": 360e3},
+        },
+        # Disable threshold power b/c it was announced late.
+        "threshold_power": 0,
+    },
+    {
         "proposal_id": "0xd3eb06d107554f4feb7fb8f7730c3a50c49fbca160454b8964a98164edfda038",
         "date_announced": "2025-01-17",
         "max_spin_per_vote": 6,
