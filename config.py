@@ -6,7 +6,7 @@
 CAMPAIGNS = [
     {
         "proposal_id": "0x967cf0759a25bd15f4033b2d9e35fc70412190d2f83f8b6f7e40ac08de76be19",
-        "date_announced": "2024-02-17",
+        "date_announced": "2025-02-17",
         "max_spin_per_vote": 6,
         "target_choices": {
             "Gyroe USDT/GYD (0xfc)": {"max_spin": 360e3},
